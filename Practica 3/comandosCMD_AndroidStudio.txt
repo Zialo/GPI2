@@ -61,3 +61,34 @@
    82  ls
    83  cd alumno/Escritorio
    84  history > comandosCMD_AndroidStudio.txt
+   
+   
+ /////
+ Segunda parte  
+ /////
+   
+   64  ./gradlew build
+   65  cd build
+   66  ls
+   67  cd intermediates/
+   68  ls
+   69  cd ../..
+   70  ./gradlew assembleDebug
+   71  ls
+   72  cd build
+   73  ls
+   74  cd ..
+   75  ./gradlew installDebug
+   76  ./gradlew tasks
+   77  ./gradlew assemble
+   78  cd app
+   79  ls
+   80  cd build
+   81  ls
+   82  cd outputs/
+   83  ls
+   84  cd apk
+   85  ls
+   86  history > ../../../../../home/alumno/Escritorio/parte2.txt
+   87  history > parte2.txt
+
