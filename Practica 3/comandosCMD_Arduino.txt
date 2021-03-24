@@ -1,0 +1,497 @@
+    1  passwd
+    2  traceroute www.google.es
+    3  sudo apt install git
+    4  USER
+    5  user
+    6  users
+    7  whoami
+    8  GIT -V
+    9  git -v
+   10  sudo apt install git
+   11  passwd
+   12  apt-get install git
+   13  sudo apt-get install git
+   14  git -v
+   15  git version
+   16  git clone https://github.com/Zialo/GPI2.git
+   17  git status
+   18  cd ..
+   19  cd Practicas\ GPI\ II/
+   20  ls
+   21  cd GPI2/
+   22  git status
+   23  git add .
+   24  git commit -m "First commit"
+   25  git config --global user.email "hodei54@gmail.com"
+   26  git config --global user.name "Hodei Zia"
+   27  git commit -m "First commit"
+   28  git add .
+   29  git commit -m "First commit"
+   30  git status
+   31  git add -a Practicas/
+   32  git add -a Practicas
+   33  git add -A
+   34  git commit -m "First commit"
+   35  git pull
+   36  git push
+   37  git add .
+   38  git commit -m "First commit"
+   39  git ls-remote origin
+   40  git ls-remote main
+   41  git ls-remote origin
+   42  git add .
+   43  git commit -m "First commit"
+   44  git branch
+   45  cd ..
+   46  git add .
+   47  cd GPI2/
+   48  clear
+   49  ls
+   50  git status
+   51  ls
+   52  sudo apt-get install netbeans
+   53  cd ..
+   54  rmdir GPI2/
+   55  rmdir -P GPI2
+   56  rmdir -p GPI2
+   57  rmdir -r GPI2
+   58  rmdir -R GPI2
+   59  cd ..
+   60  ls
+   61  cd Practicas GPI II
+   62  cd GPI\ II/
+   63  git clone https://github.com/Zialo/GPI2.git
+   64  ls
+   65  cd GPI2/
+   66  mkdir Practicas
+   67  cd Practicas/
+   68  mkdir Practica 2
+   69  cd ..
+   70  ls
+   71  cd Practicas/
+   72  ls
+   73  rmdir 2
+   74  rmdir Practica/
+   75  mkdir Practica_2
+   76  cd ..
+   77  git status
+   78  touch lalal
+   79  git status
+   80  ls
+   81  rmdir lalal
+   82  rm lalal
+   83  ls
+   84  cd Practicas/
+   85  cd Practica_2/
+   86  git clone https://github.com/sonph63195/Shopping
+   87  ls
+   88  cd Shopping/
+   89  ls
+   90  cd ..
+   91  sudo apt-get install PMD
+   92  sudo apt-get install pmd
+   93  wget https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.31.0/pmd-bin-6.31.0.zip
+   94  ls
+   95  unzip pmd-bin-6.31.0.zip
+   96  ls
+   97  cs pmd-bin-6.31.0
+   98  cd pmd-bin-6.31.0/
+   99  ls
+  100  cd ..
+  101  alias pmd="$home/alumno/pmd-bin-6.31.0/bin/run.sh pmd"
+  102  cd ..
+  103  pmd -d /usr/src -R rulesets/java/quickstart.xml -f text
+  104  pmd -d 
+  105  pmd
+  106  alias pmd="$HOME/pmd-bin-6.31.0/bin/run.sh pmd"
+  107  pmd -d /usr/src -R rulesets/java/quickstart.xml -f text
+  108  pmd
+  109  sudo apt-get install findbugs
+  110  ls
+  111  findbugs
+  112  pmd
+  113  findbugs
+  114  clear
+  115  findbugs
+  116  ./pmd-bin-6.31.0/lib/
+  117  netbeans &
+  118  sudo apt-get install eclipse
+  119  eclipse &
+  120  git
+  121  clear
+  122  git version
+  123  sudo apt-get install firefox
+  124  clear
+  125  ./pmd-bin-6.31.0/bin/run.sh pmd -d Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping -R rulesets/java/unusedcode.xml > pmd
+  126  ls
+  127  cat pmd
+  128  ./pmd-bin-6.31.0/bin/run.sh pmd -d Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/user/UserDTO.java -R rulesets/java/unusedcode.xml > pmd2
+  129  ls
+  130  cat pmd2
+  131  cat pmd
+  132  ./pmd-bin-6.31.0/bin/run.sh pmd -d Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/user/UserDTO.java -f text -R rulesets/java/unusedcode.xml > pmd2
+  133  ls pmd2
+  134  cat pmd2
+  135  ./pmd-bin-6.31.0/bin/run.sh pmd -d Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/user/UserDTO.java -f text -R rulesets/java/unusedcode.xml
+  136  ls
+  137  ./pmd-bin-6.31.0/bin/run.sh pmd -d Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -f text -R rulesets/java/unusedcode.xml > pmd 
+  138  cat pmd
+  139  ./pmd-bin-6.31.0/bin/run.sh | pmd -d Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/user/UserDTO.java -f text -R rulesets/java/unusedcode.xml
+  140  ./pmd-bin-6.31.0/bin/run.sh pmd -d Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -f text -R rulesets/java/unusedcode.xml > pmd 
+  141  cat pmd
+  142  cd pmd-bin-6.31.0/bin
+  143  pmd -d Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -f text -R rulesets/java/unusedcode.xml > pmd 
+  144  pmd -d Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -f text -R rulesets/java/unusedcode.xml
+  145  pmd -d /home/alumno/Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -f text -R rulesets/java/unusedcode.xml
+  146  pmd -d /home/alumno/Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -R rulesets/java/unusedcode.xml -f text
+  147  pmd -d /home/alumno/Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -R rulesets/java/quickstart.xml -f text
+  148  pmd
+  149  cd ..
+  150  pmd
+  151  alias pmd="$HOME/pmd-bin-6.31.0/bin/run.sh pmd"
+  152  pmd
+  153  pmd -d /home/alumno/Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -R rulesets/java/unusedcode.xml -f text
+  154  pmd -d /home/alumno/Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -R rulesets/java/unusedcode.xml -f text > pmd
+  155  ls
+  156  cat pmd
+  157  pmd -d /home/alumno/Escritorio/GPI\ II/GPI2/Practicas/Practica_2/Shopping/src/java/sonphse/ -R rulesets/java/quickstart.xml -f text > pmd
+  158  cat pmd
+  159  git status
+  160  sudo apt-get install tomcat
+  161  sudo apt-get install apache tomcat
+  162  tomcat
+  163  sudo service tomcat8 start
+  164  wget localhost:8080
+  165  sudo su
+  166  sudo apt update
+  167  sudo apt upgrade
+  168  sudo apt install netbeans
+  169  netbeans &
+  170  cd Escritorio/GPI\ II/GPI2/
+  171  git status
+  172  git add .
+  173  git commit -m "Final practica 2"
+  174  git push
+  175  java -jar $FINDBUGS_HOME/lib/findbugs.jar
+  176  sudo apt-get install gimp
+  177  sudo apt-get install sonarqube
+  178  sudo apt-get install netbeans
+  179  netbeans
+  180  sudo apt install netbeans
+  181  netbeans
+  182  sudo snap install netbeans
+  183  sudo apt-get install netbeans --fix-missing
+  184  netbeans
+  185  sudo apt-get install findbugs
+  186  git status
+  187  cd Escritorio/GPI\ II/
+  188  git clone https://github.com/Zialo/GPI2.git
+  189  curl -X GET -u Zialo:d0be7a737705145df91b5b3a1d21c866d4783543https://api.github.com/users/Zialo/repos | grep -w clone_url
+  190  sudo apt-get install curl
+  191  curl -X GET -u Zialo:d0be7a737705145df91b5b3a1d21c866d4783543https://api.github.com/users/Zialo/repos | grep -w clone_url
+  192  curl -X GET -u Zialo:d0be7a737705145df91b5b3a1d21c866d4783543 https://api.github.com/users/Zialo/repos | grep -w clone_url
+  193  git pull
+  194  git status
+  195  ls
+  196  cd GPI2/
+  197  git pull
+  198  git add .
+  199  git status
+  200  git commit -m 'Salida PMD'
+  201  git push
+  202  git clone https://github.com/sonph63195/Shopping.git
+  203  ls
+  204  git status
+  205  git add .
+  206  git status
+  207  git commit -m "Subida Shopping"
+  208  git push
+  209  netbeans-8.2/
+  210  netbeans-8.2
+  211  ./netbeans
+  212  cd Escritorio/
+  213  ./netbeans
+  214  cd ..
+  215  cd netbeans-8.2/
+  216  ./netbeans
+  217  cd bin/
+  218  ./netbeans
+  219  cd ../..
+  220  cd Escritorio/GPI\ II/GPI2/Shopping/
+  221  cd src/java/
+  222  jar -cvf shopping.war *
+  223  ls
+  224  unzip shopping.war 
+  225  ls
+  226  cd META-INF/
+  227  ls
+  228  cat MANIFEST.MF 
+  229  cd ..
+  230  rm META-INF/
+  231  rmdir META-INF/
+  232  mv shopping.war ../../../../../../../../../var/lib/tomcat8/webapps/shopping.war
+  233  sudo mv shopping.war ../../../../../../../../../var/lib/tomcat8/webapps/shopping.war
+  234  cd ../..
+  235  cd ../../../../../../home
+  236  cd ..
+  237  unzip findbugs-3.0.1.zip 
+  238  sudo apt-get install findbugs3
+  239  sudo apt-get install findbugs
+  240  ls
+  241  findbugs
+  242  unzip findbugs-3.0.1.zip 
+  243  ls
+  244  sudo apt-get install chrome
+  245  sudo apt-get install firefox
+  246  firefox &
+  247  ls
+  248  cd ..
+  249  cd Descargas/
+  250  ls
+  251  unzip findbugs-3.0.1.zip 
+  252  ls
+  253  java -jar /lib/findbugs.jar
+  254  java -jar lib/findbugs.jar
+  255  ls
+  256  cd findbugs-3.0.1/
+  257  java -jar lib/findbugs.ja
+  258  java -jar lib/findbugs.jar
+  259  netbeans --version
+  260  sudo add-apt-repository pps:webupd8team/java
+  261  sudo apt-get install oracle-java8-installer
+  262  wget -c http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh
+  263  netbeans
+  264  sudo apt-get --purge remove netbeans
+  265  wget -c http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh
+  266  netbeans
+  267  ls
+  268  ./netbeans-8.2-linux.sh
+  269  chmod 777 netbeans-8.2-linux.sh 
+  270  ./netbeans-8.2-linux.sh
+  271  netbeans
+  272  cd /home/alumno/
+  273  gunzip -c findbugs-3.0.1.tar.gz | tar xvf -
+  274  clear
+  275  cd
+  276  cd..
+  277  ls
+  278  find findbugs
+  279  find pmd
+  280  find GPI
+  281  clear
+  282  findbugs
+  283  findbugs2
+  284  gunzip -c findbugs-3.0.1.tar.gz | tar xvf -
+  285  ls
+  286  sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-libs-multiarch
+  287  sudo apt-get install cpu-checker
+  288  df -8
+  289  df -h
+  290  cd Escritorio/
+  291  sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+  292  sudo apt install snapd
+  293  sudo snap install android-studio
+  294  sudo snap install android-studio --classic
+  295  sudo apt update && sudo apt install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386 wget
+  296  java -version
+  297  cd ..
+  298  cd Descargas/
+  299  wget https://dl.google.com/dl/android/studio/ide-zips/3.1.4.0/android-studio-ide-173.4907809-linux.zip
+  300  sudo unzip android-studio-ide-*-linux.zip -d /opt/
+  301  cd /opt/android-studio/bin
+  302  ./studio.sh
+  303  df -h
+  304  df -h
+  305  cd /opt/android-studio/bin
+  306  ./studio.sh
+  307  df -h
+  308  ./studio.sh
+  309  cd ../../../..
+  310  ls
+  311  cd /Descargas
+  312  cd usr
+  313  cd ..
+  314  cd home
+  315  ls
+  316  cd alumno
+  317  ls
+  318  cd Descargas/
+  319  tar -xzf android-studio-ide-191.6010548-linux.tar.gz 
+  320  tar -xzf android-studio-ide-191.6010548-linux.tar.gz
+  321  ls
+  322  unzip android-studio-ide-173.4907809-linux.zip 
+  323  ./studio.sh
+  324  ls
+  325  cd android-studio/
+  326  ls
+  327  cd bin
+  328  ls
+  329  ./studio.sh
+  330  ls
+  331  cd Android
+  332  ls
+  333  cd Sdk
+  334  ls
+  335  cd Descargas/android-studio/
+  336  cat build.txt
+  337  cd ../..
+  338  ls
+  339  cd AndroidStudioProjects/
+  340  ls
+  341  ./gradlew task compileDebugAndroid
+  342  clear
+  343  cd ..
+  344  ls
+  345  cd Descargas/
+  346  ls
+  347  cd android-studio/
+  348  ls
+  349  cd bin
+  350  ./studio.sh
+  351  su
+  352  sudo
+  353  sudo su-
+  354  sudo su -
+  355  sudo ./studio.sh
+  356  sudo apt-get install arduino
+  357  sudo apt-get install gradle
+  358  cd Descargas/android-studio/
+  359  df -h
+  360  sudo apt remove gradle
+  361  sudo apt install gradle
+  362  sudo apt install avr-gcc 8.3.0
+  363  make -f Makefile-Linux.mk 
+  364  make
+  365  make all
+  366  cli
+  367  sudo apt-get install gcc-avr binutils avr-libc avrdude
+  368  sudo add-apt-repository ppa:git-core/ppa
+  369  sudo apt-get update && sudo apt-get upgrade
+  370  sudo apt-get install gcc-avr binutils avr-gcc -v 
+  371  LS
+  372  ls
+  373  cd ..
+  374  cd ../AndroidStudioProjects/
+  375  LS
+  376  ls
+  377  cd GPI2/
+  378  gradle gradlew
+  379  ./gradlew
+  380  ./gradlew --stacktrace
+  381  ./gradlew
+  382  sudo apr-get install gradlew
+  383  sudo apt-get install gradlew
+  384  sudo apt-get install gradle
+  385  ./gradlew
+  386  ./gradlew tasks
+  387  ./gradlew task compileDebugAndroidTestSources
+  388  ls
+  389  java --v
+  390  java -v
+  391  java -version
+  392  df -h
+  393  sudo apt delete arduino
+  394  sudo apt remove arduino
+  395  df -h
+  396  cd /home/root
+  397  cd /home
+  398  ls
+  399  sudo su
+  400  DF -H
+  401  df -h
+  402  cd Descargas/android-studio/bin
+  403  sudo ./studio.sh 
+  404  cd
+  405  cd Descargas/
+  406  ls
+  407  tar -xf android-studio-ide-201.7199119-linux.tar.gz 
+  408  ls
+  409  rm android-studio-ide-201.7199119-linux.tar.gz 
+  410  cd android-studio/
+  411  cd bin/
+  412  ls
+  413  sudo studio.sh
+  414  sudo ./studio.sh
+  415  cd ../../
+  416  cd ../Escritorio/
+  417  cd Descargas/
+  418  tar -zxvf arduino-1.8.11.-linux4.tar.xz
+  419  pw -h
+  420  fw -g
+  421  pw -h
+  422  clear
+  423  cd Descargas/
+  424  sudo apt install arduino
+  425  ls
+  426  arduino
+  427  cd ../Escritorio/
+  428  git clone https://github.com/ladislas/Bare-Arduino-Project
+  429  cd Bare-Arduino-Project/
+  430  ls
+  431  cat Arduino-Makefile/
+  432  cd Arduino-Makefile/
+  433  ls
+  434  ls -al
+  435  cd ..
+  436  ls
+  437  cat Makefile-Linux.mk 
+  438  make
+  439  make upload
+  440  make all
+  441  make --help
+  442  make -f Makefile-Linux.mk 
+  443  git submodule update --init --recursive
+  444  ls
+  445  cd Arduino-Makefile/
+  446  ls
+  447  cd ..
+  448  make -f Makefile-Linux.mk 
+  449  brew install python python@2
+  450  sudo apt install brew
+  451  brew install python python@2
+  452  sudo apt install linuxbrew-wrapper
+  453  brew install python python@2
+  454  cd Es
+  455  cd ..
+  456  git remote set-url origin https://github.com/zialo/ArduinoProject
+  457  git remote set-url origin https://github.com/Zialo/GPI2/PracticaBuild/ArduinoProject
+  458  git remote set-url origin https://github.com/Zialo/GPI2/ArduinoProject
+  459  git remote set-url origin https://github.com/Zialo/ArduinoProject
+  460  git remote set-url origin https://github.com/Zialo/Bare-Arduino-Project
+  461  git clone https://github.com/Zialo
+  462  git clone https://github.com/Zialo.git
+  463  git clone https://github.com/Zialo/GPI2.git
+  464  cd Bare-Arduino-Project/
+  465  git submodule update --init --recursive
+  466  git remote set-url origin https://github.com/{{Zialo}}/Bare-Arduino-Project
+  467  git status
+  468  git push --set-upstream origin master
+  469  git remote set-url origin https://github.com/Zialo/Bare-Arduino-Project
+  470  git push --set-upstream origin master
+  471  git remote set-url origin https://github.com/Zialo/Bare-Arduino-Project.git
+  472  git push --set-upstream origin master
+  473  git remote set-url origin https://github.com/Zialo/GPI2.git
+  474  git push --set-upstream origin master
+  475  brew install python python@2
+  476  pip install pyserial
+  477  sudo apt install python-pip
+  478  pip install pyserial
+  479  pip2 install pyserial
+  480  ls
+  481  cd src
+  482  ls
+  483  cd FooProject/
+  484  ls
+  485  cp ../../Makefile-Linux.mk  ./Makefile
+  486  LS
+  487  ls
+  488  cat Makefile 
+  489  make
+  490  make upload
+  491  make all
+  492  make
+  493  FUNCIONA
+  494  cd ../../
+  495  cd ..
+  496  ls
+  497  history > comandosCMD_Arduino.txt

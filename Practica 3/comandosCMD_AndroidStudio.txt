@@ -1,0 +1,63 @@
+   22  exit
+   23  ls
+   24  cd /Home/alumno
+   25  cd /home/alumno
+   26  ls
+   27  cd Descargas/
+   28  ls
+   29  cd android-studio/bin/
+   30  ls
+   31  ./studio.sh
+   32  ./studio.sh 
+   33  ./studio.sh
+   34  cd /root
+   35  cd AndroidStudioProjects/
+   36  ls
+   37  cd MyApplication/
+   38  ./gradlew
+   39  pwd
+   40  ls
+   41  ./gradlew tasks AndroidStudioDebug
+   42  ./gradlew tasks
+   43  ./gradlew tasks compileDebugAndroidTestSources
+   44  ls
+   45  cd build
+   46  ls
+   47  cd kotlin/
+   48  ls
+   49  cd sessions/
+   50  ls
+   51  ls -al
+   52  cd ../../..
+   53  ls
+   54  ./gradlew compileDebugSources
+   55  ./gradlew compileReleaseSources
+   56  ./gradlew task compileDebugAndroidTestSources
+   57  ./gradlew task compileDebugSources
+   58  ./gradlew task compileDebugUnitTestSources
+   59  ./gradlew task compileReleaseSources
+   60  ./gradlew task compileReleaseUnitTestSources
+   61  ls
+   62  cd build
+   63  ls
+   64  cd kotlin/
+   65  ls
+   66  cd sessions/
+   67  ls -al
+   68  cd ../../..
+   69  ls
+   70  history > comandosCMD_AndroidStudio.txt
+   71  ls
+   72  mv comandosCMD_AndroidStudio.txt /Escritorio/comandosCMD_AndroidStudio.txt
+   73  mv comandosCMD_AndroidStudio.txt /Escritorio
+   74  ls
+   75  cd ../../..
+   76  ls
+   77  cd Escritorio 
+   78  cat Escritorio 
+   79  rm Escritorio 
+   80  ls
+   81  cd home/
+   82  ls
+   83  cd alumno/Escritorio
+   84  history > comandosCMD_AndroidStudio.txt
