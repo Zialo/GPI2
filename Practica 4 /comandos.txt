@@ -1,0 +1,140 @@
+  630  maven
+  631  which ant
+  632  which mavel
+  633  sudoa pt-get install mavel
+  634  sudo apt-get install mavel
+  635  sudo apt-get install maven
+  636  which maven
+  637  maven
+  638  echo $JAVA_HOME
+  639  sudo apt install ant
+  640  ant -v
+  641  mvn
+  642  sudo apt-get install jdk
+  643  ls
+  644  cd ES
+  645  cd Escritorio/
+  646  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=simple -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=falseS
+  647  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=simple-webapp -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  648  cd simple
+  649  mvn compile
+  650  ls
+  651  ant compile
+  652  ant -version
+  653  ant compile
+  654  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=simple-webapp -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  655  cd ..
+  656  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=simple-webapp -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  657  cd simple-webapp/
+  658  mvn compile
+  659  cd ..
+  660  cd simple
+  661  ant compile
+  662  ant clean
+  663  ant compile
+  664  ant jar
+  665  ant run
+  666  ant jar
+  667  ant run
+  668  ant compile
+  669  ant jar
+  670  ant run
+  671  ant jar
+  672  ant run
+  673  ant compile
+  674  ant jar
+  675  ant run
+  676  ant compile
+  677  ant jar
+  678  ant run
+  679  ant compile
+  680  ant run
+  681  ant jar
+  682  ant run
+  683  compile clean
+  684  ant clean
+  685  ant all
+  686  all-test
+  687  ant all-test
+  688  ant compile-test
+  689  ant jar-test
+  690  ant run-test
+  691  ant compile-test
+  692  ant jar-test
+  693  ant run-test
+  694  ant compile-test
+  695  ant jar-test
+  696  ant run-test
+  697  ant clean
+  698  run all
+  699  ant all
+  700  ant run-test
+  701  ant clean
+  702  ant all-tets
+  703  ant all-test
+  704  ant clean
+  705  ant all-test
+  706  ant clean
+  707  ant all-test
+  708  ant clean
+  709  ant all-test
+  710  ant clean
+  711  ant all-test
+  712  ant all
+  713  cd Escritorio/
+  714  mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4
+  715  cd Escritorio/
+  716  mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
+  717  cd Simple
+  718  ls
+  719  cd SImple/
+  720  ant all
+  721  ant clean
+  722  ant run
+  723  ant compile
+  724  ant clean
+  725  ant all
+  726  ant all-main
+  727  ant all-test
+  728  ant all-main
+  729  ant all-test
+  730  ant all-main
+  731  ant all-test
+  732  cd ..
+  733  cd Simple
+  734  ant all-test
+  735  ant compile-test
+  736  ant all-test
+  737  ant compile-test
+  738  ant run-test
+  739  ant clean
+  740  ant all
+  741  ant --version
+  742  ant --v
+  743  ant -v
+  744  ant all
+  745  pmd -v
+  746  pmd
+  747  sudo apt install pmd
+  748  pmd
+  749  cd ..
+  750  pmd
+  751  cd Simple
+  752  mvn package
+  753  java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+  754  ant all
+  755  mvn package
+  756  cobertura
+  757  mvn cobertura
+  758  mvn cobertura:cobertura
+  759  mvn cobertura:cobertura -X
+  760  mvn cobertura:cobertura 
+  761  mvn cobertura:cobertura -Dcobertura.report.format=xml
+  762  mvn cobertura:cobertura 
+  763  mvn site
+  764  mvn cobertura:cobertura
+  765  mvn site
+  766  mvn cobertura
+  767  mvn cobertura:cobertura
+  768  cd ..
+  769  history > comandos.txt

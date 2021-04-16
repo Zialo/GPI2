@@ -1,0 +1,32 @@
+<project>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac includeantruntime="false" srcdir="src/main/webapp/" destdir="build/classes"/>
+    </target>
+
+    <target name="jar">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/App.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="webapp.App"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run">
+        <java jar="build/jar/App.jar" fork="true"/>
+    </target>
+    
+   
+    
+	<target name="all" depends="clean, compile, jar, run">
+    </target>
+
+
+</project>
+    
