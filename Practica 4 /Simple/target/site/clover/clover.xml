@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1618856390691" clover="4.4.1">
+   <project name="2 2" timestamp="1618856387006">
+      <metrics coveredelements="0" complexity="2" loc="17" methods="2" classes="1" statements="2" packages="1" coveredconditionals="0" coveredmethods="0" elements="4" ncloc="11" files="1" conditionals="0" coveredstatements="0"/>
+      <package name="Simple">
+         <metrics coveredelements="0" complexity="2" loc="17" methods="2" classes="1" statements="2" coveredconditionals="0" coveredmethods="0" elements="4" ncloc="11" files="1" conditionals="0" coveredstatements="0"/>
+         <file path="/home/alumno/Escritorio/github/Practica 4 /Simple/src/main/java/Simple/App.java" name="App.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="2" loc="17" coveredmethods="0" methods="2" elements="4" classes="1" ncloc="11" statements="2" conditionals="0" coveredstatements="0"/>
+            <class name="App">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="2" elements="4" statements="2" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="9" count="0" type="method"/>
+            <line num="11" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getter() : String" num="14" count="0" type="method"/>
+            <line num="15" count="0" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="2 2" timestamp="1618856387006">
+      <metrics coveredelements="2" complexity="2" loc="26" methods="2" classes="1" statements="3" packages="1" coveredconditionals="0" coveredmethods="1" elements="5" ncloc="16" files="1" conditionals="0" coveredstatements="1"/>
+      <package name="Simple">
+         <metrics coveredelements="2" complexity="2" loc="26" methods="2" classes="1" statements="3" coveredconditionals="0" coveredmethods="1" elements="5" ncloc="16" files="1" conditionals="0" coveredstatements="1"/>
+         <file path="/home/alumno/Escritorio/github/Practica 4 /Simple/src/test/java/Simple/AppTest.java" name="AppTest.java">
+            <metrics coveredelements="2" coveredconditionals="0" complexity="2" loc="26" coveredmethods="1" methods="2" elements="5" classes="1" ncloc="16" statements="3" conditionals="0" coveredstatements="1"/>
+            <class name="AppTest">
+               <metrics coveredelements="2" complexity="2" methods="2" testruns="1" statements="3" coveredconditionals="0" coveredmethods="1" elements="5" testfailures="0" testduration="0.005" conditionals="0" coveredstatements="1" testpasses="1"/>
+            </class>
+            <line complexity="1" visibility="public" signature="shouldAnswerWithTrue() : void" num="16" testsuccess="true" count="1" testduration="0.005" type="method"/>
+            <line num="19" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="palabraConsola() : void" num="22" count="0" type="method"/>
+            <line num="23" count="0" type="stmt"/>
+            <line num="24" count="0" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>

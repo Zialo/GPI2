@@ -30,6 +30,13 @@
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+
+		<plugin>
+			<groupId>org.openclover</groupId>
+			<artifactId>clover-maven-plugin</artifactId>
+			<version>4.4.1</version>     
+		</plugin>
+
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
@@ -43,7 +50,7 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
-        </plugin>
+        </plugin>      
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
@@ -70,11 +77,13 @@
           <version>3.0.0</version>
         </plugin>
         
-		  <plugin>
+		  <!--<plugin>
 			<groupId>org.codehaus.mojo</groupId>
 			<artifactId>findbugs-maven-plugin</artifactId>
-			<version>3.0.6-SNAPSHOT</version>
-		  </plugin>
+			<version>3.0.6</version>
+		  </plugin>-->
+		  
+		
 		
       </plugins>
     </pluginManagement>
