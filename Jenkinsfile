@@ -1,7 +1,7 @@
 pipeline {
-	agent{label 'master'} 
+	agent{label 'main'} 
 	stages{
-		stage('Fetch repository'){
+		stage('Github'){
 			steps{
 				git url: 'https://github.com/Zialo/GPI2.git'
 			}
@@ -9,19 +9,19 @@ pipeline {
 		stage('Simple'){ 
 			steps{
 				echo 'SIMPLE'
-				dir('simple'){
+				dir('Practica 4/Simple'){
 					sh 'mvn compile'
 					sh 'mvn test'
-					sh'mvn validate'
-					sh'mvn verify'				
+					sh 'mvn validate'
+					sh 'mvn verify'		
+					sh 'mvn site'			
 				}
 			}
 		} 
 		stage('Android'){ 
 			steps{
 				echo 'ANDROID'
-				dir('Practica 3/'){
-					sh './gradlew tasks compileDebugAndroidTestSources'
+				dir('Practica 3/Android'){
 					sh './gradlew task compileDebugAndroidTestSources'
 					sh './gradlew task compileDebugSources'
 					sh './gradlew task compileDebugUnitTestSources'
@@ -33,16 +33,8 @@ pipeline {
 		stage('Arduino'){ 
 			steps{
 				echo 'ARDUINO'
-				dir('Arduino-lopez111558'){
+				dir('Practica 3/Arduino'){
 					sh 'make'
-				}
-			}
-		} 
-		stage('Simple Webapp'){ 
-			steps{
-				echo 'SIMPLE-WEBAPP'
-				dir('simple-webapp'){
-				
 				}
 			}
 		} 
