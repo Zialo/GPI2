@@ -21,7 +21,7 @@ pipeline {
 		stage('Android'){ 
 			steps{
 				echo 'ANDROID'
-				dir('Practica 3/Android'){
+				dir('Practica 3/android-studio'){
 					sh './gradlew task compileDebugAndroidTestSources'
 					sh './gradlew task compileDebugSources'
 					sh './gradlew task compileDebugUnitTestSources'
@@ -33,7 +33,7 @@ pipeline {
 		stage('Arduino'){ 
 			steps{
 				echo 'ARDUINO'
-				dir('Practica 3/Arduino'){
+				dir('Practica 3/Arduino-Makefile'){
 					sh 'make'
 				}
 			}
